@@ -84,6 +84,15 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--logo-black-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
 }
 
 .part-logo {
@@ -123,6 +132,15 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--title-text-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-item-link:hover,
+.menu-item-link:focus {
+  color: var(--accent-color);
 }
 
 .menu-item-link.current {
@@ -165,6 +183,17 @@ border-radius: 2px;
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-item-mail:hover,
+.contacts-item-mail:focus,
+.contacts-item-tel:hover,
+.contacts-item-tel:focus {
+  color: var(--accent-color);
 }
 /* ==============header================== */
 
