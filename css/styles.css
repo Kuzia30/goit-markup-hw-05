@@ -761,8 +761,12 @@ img {
   left: 0;
   width: 100vw;
   height: 100vh;
+  transform: scale(1);
 
   background-color: rgba(0, 0, 0, 0.2);
+  transition-property: opacity, transform;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
 }
 
 .modal {
@@ -805,5 +809,6 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transform: scale(0);
 }
 /* ==============modal================== */
